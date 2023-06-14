@@ -1,0 +1,23 @@
+.about {
+    display: flex;
+    flex-direction: column;
+
+
+}
+.about__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.about__title {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--cor-text);
+
+}
+.about__paragraph {
+    font-size: 14px;
+    font-weight: 400;
+
+}

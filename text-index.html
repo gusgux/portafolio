@@ -1,0 +1,187 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Referencia de la hoja de estilo de Css -->
+    <link rel="stylesheet" href="/assets/css/experience.css">
+
+
+    <!-- Font del Proyecto Raleway -->
+    <style>
+        :root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-text: #464646;
+   --cor-de-link: #000;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+html{ 
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin:0 auto;
+    padding: 0;
+    line-height: 1;
+    width: 95%;
+    
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+body{
+        max-width: 1440px;
+        padding: 0 152px;
+    }
+
+
+
+/*Experiencia Profesional*/
+
+.experience{
+    gap: 2rem;
+}
+.experience__title{
+    font-size: 2rem;
+}
+.experience__content{
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+.experience__content:nth-of-type(2n +0){
+    background-color: blue;
+}
+.experience__img{
+    width: 70%;
+}
+.experience__subtitle{
+    font-size: 22px;
+}
+.experience__description{
+    font-size: 1rem;
+}
+
+
+
+
+    </style>
+
+    <title> Mi Portafolio</title>
+</head>
+<body>
+    <main>
+            <!-- Sección de Experiencia Profesional/Proyectos-->
+
+<!--  <section class="experience">
+    <div class="experience__content">
+        <div>hola</div>
+        <div>holaxd</div>
+    </div>
+    <div class="experience__content">
+        <div>hola</div>
+        <div>holaxd</div>
+    </div>
+    <div class="experience__content">
+        <div>hola</div>
+        <div>holaxd</div>
+    </div>
+ </section> -->
+
+ <section class="experience">
+    <h2 class="experience__title">Experiencia profesional</h2>
+    <div class="experience__content">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="/assets/img/decod_print.png">
+        <div class="experience__info">
+            <h4 class="experience__subtitle">Encriptador de texto
+            </h4>
+            <p class="experience__description">Challenge Oracle</p>
+            <div class="experience__btn">
+                <button class="experience__repo">Repositorio</button>
+                <button class="experience__demo">Ver demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="experience__content">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="/assets/img/forca_print.png">
+        <div class="experience__info">
+            <h4 class="experience__subtitle">Juego creado con HTML  y JavaScript
+            </h4>
+            <p class="experience__description">Challenge Oracle</p>
+            <div class="experience__btn">
+                <button class="experience__repo">Repositorio</button>
+                <button class="experience__demo">Ver demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="experience__content">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="/assets/img/secretcode_print.png">
+        <div class="experience__info">
+            <h4 class="experience__subtitle">Challenge Oracle
+            </h4>
+            <p class="experience__description">Challenge Oracle</p>
+            <div class="experience__btn">
+                <button class="experience__repo">Repositorio</button>
+                <button class="experience__demo">Ver demo</button>
+            </div>
+        </div>
+    </div>
+    <div class="experience__content">
+        <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+        <img class="experience__img" src="/assets/img/forca2_print.png">
+        <div class="experience__info">
+            <h4 class="experience__subtitle">Juego creado con HTML  y JavaScript
+            </h4>
+            <p class="experience__description">Challenge Oracle</p>
+            <div class="experience__btn">
+                <button class="experience__repo">Repositorio</button>
+                <button class="experience__demo">Ver demo</button>
+            </div>
+        </div>
+    </div>
+    
+</section>
+    </main>
+</body>
+</html>

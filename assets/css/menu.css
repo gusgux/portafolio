@@ -1,0 +1,33 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.menu__header {
+    display: flex;
+    align-items: center;
+}
+
+.menu__title {
+    font-weight: 700;
+    color: var(--cor-text);
+}
+
+.menu__list {
+    display: flex;
+
+}
+
+    
+.menu__list__item a {
+    font-weight: 500;
+    color: var(--cor-text);
+    display: none;
+
+}
+.menu__list__item-contacto a {
+    font-weight: 400;
+    color: var(--cor-text);
+}

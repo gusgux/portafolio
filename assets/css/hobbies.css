@@ -1,0 +1,47 @@
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+
+.hobbies__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--cor-text);
+}
+
+
+
+.hobbies__line {
+    
+
+    display: grid;
+    grid-template: 1fr 1fr  1fr /1fr 1fr;
+    gap: 2rem 1rem;
+
+}
+.hobbies__box {
+
+    width: 156px;
+    height: 118px;
+    padding: 1rem;
+    box-sizing: border-box;
+
+}
+.hobbies__img {
+    margin: 0.5rem 0;
+
+
+}
+.hobbies__name {
+    font-weight: 700;
+    color: var(--cor-text);
+    font-size: 1rem;
+
+
+}
+
+
+
